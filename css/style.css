@@ -58,6 +58,26 @@ p {
   color: #333;
 }
 
+.btn-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-dark {
+  background: #333;
+  color: #fff;
+}
+
+.bg-light {
+  background: #f4f4f4;
+  color: #333;
+}
+
+.bg-primary {
+  background: #333;
+  color: #f7c08a;
+}
+
 /* Navbar */
 #navbar {
   background: #333;
@@ -115,4 +135,29 @@ p {
 #showcase .showcase-content p {
   line-height: 1.7em;
   padding-bottom: 20px;
+}
+
+/* Home Info */
+#home-info {
+  height: 400px;
+}
+
+#home-info .info-img {
+  background: url('../img/photo-1.jpg') no-repeat;
+  float: left;
+  min-height: 100%;
+  width: 50%;
+}
+
+#home-info .info-content {
+  float: right;
+  height: 100%;
+  overflow: hidden;
+  padding: 50px 30px;
+  text-align: center;
+  width: 50%;
+}
+
+#home-info .info-content p {
+  padding-bottom: 30px;
 }
